@@ -59,7 +59,7 @@
 # commercial use of the source code.
 """ Module for plotting commands for protein structures """
 
-from IPython.core.display import display, HTML
+from IPython.display import display, HTML
 import os
 import importlib_metadata
 import py3Dmol

@@ -1,3 +1,36 @@
+Metadata-Version: 2.4
+Name: propermab
+Version: 0.1.0
+Summary: Tools for calculating molecular features of proteins with a focus on mAbs.
+Requires-Python: <3.13,>=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: openmm
+Requires-Dist: pdbfixer
+Requires-Dist: anarci
+Requires-Dist: scipy>=1.6
+Requires-Dist: biopython>=1.80
+Requires-Dist: py3dmol
+Requires-Dist: matplotlib>=3.5
+Requires-Dist: numba>=0.50
+Requires-Dist: pdb2pqr
+Requires-Dist: immunebuilder<=0.0.8,>=0.0.5
+Requires-Dist: freesasa>=2.2.0
+Requires-Dist: open3d
+Requires-Dist: plyfile
+Requires-Dist: meshio
+Requires-Dist: fair-esm
+Requires-Dist: antiberty
+Requires-Dist: networkx
+Requires-Dist: scikit-learn
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: ipython>=8.38.0
+Provides-Extra: cuda
+Requires-Dist: OpenMM-CUDA-12; extra == "cuda"
+Dynamic: license-file
+
 # propermab (with `uv`)
 
 `propermab` is a Python package for calculating and predicting molecular features and properties of monoclonal antibodies (mAbs), as described in the following paper:
