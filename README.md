@@ -15,7 +15,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 Then clone the repo and install:
 
 ```bash
-git clone https://github.com/regeneron-mpds/propermab.git
+git clone https://github.com/NabilOuldHamou/propermab-condaless
 cd propermab
 uv sync
 ```
